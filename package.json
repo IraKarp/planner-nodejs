@@ -1,0 +1,30 @@
+{
+  "name": "travel-planner-nodejs",
+  "version": "1.0.0",
+  "description": "travel-planner",
+  "repository": {},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon --exec babel-node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-node": "0.0.1-security",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^2.6.7",
+    "node-fetch-retry": "^2.0.0",
+    "wikijs": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "nodemon": "^2.0.16"
+  }
+}
